@@ -4,13 +4,12 @@
 //
 //  Created by Amina TomasMart on 23.02.2024.
 //
-
 import UIKit
 
 class MyExtensions {
     
     private let fbManager = FBManager()
-        
+    
     func createButton(title: String, action: UIAction?, tag: Int) -> UIButton {
         let button = UIButton(primaryAction: action)
         button.translatesAutoresizingMaskIntoConstraints = false
